@@ -95,5 +95,3 @@ This project is licensed under the MIT License.
 ```
 
 ---
-
-İstersen ben bu README’yi **GitHub uyumlu emoji’lerle sadeleştirilmiş kısa versiyon** ya da **daha teknik (deployment komutları, klasör yapısı dahil)** şekilde düzenleyebilirim. Hangisini istersin?
