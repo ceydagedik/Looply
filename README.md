@@ -1,40 +1,99 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🌐 Looply
 
-First, run the development server:
+Looply is a **Web3 platform** that enables users to **buy and sell second-hand products** in a secure and transparent way using **Stellar blockchain** technology.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Users can log in using their **Freighter Wallet**, list their products with photos that are **hashed and stored on the blockchain**, and set prices in **XLM or popular stablecoins**.  
+Transactions are protected by a simple **ownership-based smart contract**, where funds are transferred to the seller only after the buyer confirms receipt of the product.
+
+As a reward for successful transactions, users receive **small XLM micro-payments**.  
+Looply ensures **trust, transparency, and verifiable ownership history** of each product directly on the blockchain — creating a more reliable and user-friendly second-hand shopping experience.
+
+---
+
+## 🚀 Features
+
+- 🔐 **Blockchain-based trust** – ownership and transaction history are verifiable on-chain  
+- 💸 **Crypto payments** – supports XLM and stablecoins  
+- 🧩 **Simple Soroban smart contract** – handles basic read/write operations  
+- 🧾 **Photo hashing** – ensures authenticity of listed products  
+- 💼 **Wallet connection** – Freighter Wallet integration for secure login and transactions  
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|-------|-------------|
+| **Frontend** | Next.js, TypeScript, Tailwind CSS |
+| **Smart Contract** | Rust + Soroban SDK |
+| **Blockchain Network** | Stellar Testnet |
+| **Wallet** | Freighter API |
+
+---
+
+## ⚙️ How It Works
+
+1. **Connect Wallet:**  
+   Users connect their Freighter wallet to authenticate.
+
+2. **List a Product:**  
+   Add product details and upload a photo (hashed and stored securely).
+
+3. **Set a Price:**  
+   Choose price in XLM or stablecoin.
+
+4. **Transaction Flow:**  
+   Buyer sends payment → blockchain confirms transaction → buyer approves delivery → seller receives funds.
+
+5. **Reward System:**  
+   Small XLM micro-payments are distributed for successful trades.
+
+---
+
+## ✅ Smart Contract Scope
+
+- Maximum **3–4 simple functions**  
+- Supports **basic read/write operations**  
+- Stores minimal product and ownership data  
+- Fully deployable on **Stellar Testnet**  
+
+---
+
+## 🔗 Integration Plan
+
+- Freighter Wallet connect/disconnect  
+- Call contract functions directly from frontend  
+- Display returned data dynamically in UI  
+
+---
+
+## 🧪 Test Scenarios
+
+- ✅ Contract can be deployed  
+- ✅ Wallet connection works  
+- ✅ Contract function can be called  
+- ✅ Frontend displays returned results  
+- ✅ End-to-end flow succeeds  
+
+---
+
+## 🎯 Project Goal
+
+To build a **minimal but complete blockchain-integrated app** that demonstrates  
+smart contract deployment, wallet interaction, and a simple frontend integration on **Stellar Soroban**.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+> Developed with 💙 on **Stellar Soroban** by [Ceyda Gedik](mailto:ceydagediikk@gmail.com)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Looply
->>>>>>> 2dac5e7f0cb61aaef67ccae3f0c728abda9b5689
+İstersen ben bu README’yi **GitHub uyumlu emoji’lerle sadeleştirilmiş kısa versiyon** ya da **daha teknik (deployment komutları, klasör yapısı dahil)** şekilde düzenleyebilirim. Hangisini istersin?
